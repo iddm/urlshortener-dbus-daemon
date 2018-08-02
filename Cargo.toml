@@ -1,7 +1,18 @@
 [package]
 name = "urlshortener-dbus-daemon"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Victor Polevoy <maintainer@vpolevoy.com>"]
+
+description = "A very simple url shortener dbus daemon"
+readme = "README.md"
+license = "MIT"
+keywords = ["url", "short", "shortener", "link"]
+
+repository = "https://github.com/vityafx/urlshortener-dbus-daemon"
+documentation = "https://docs.rs/urlshortener-dbus-daemon"
+
+[badges]
+travis-ci = { repository = "vityafx/urlshortener-dbus-daemon" }
 
 [dependencies]
 dbus = "0.6"
