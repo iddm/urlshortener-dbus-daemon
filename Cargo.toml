@@ -1,0 +1,17 @@
+[package]
+name = "urlshortener-dbus-daemon"
+version = "0.1.0"
+authors = ["Victor Polevoy <maintainer@vpolevoy.com>"]
+
+[dependencies]
+dbus = "0.6"
+dbus-tokio = "0.2"
+futures = "0.1"
+mio = "0.6"
+tokio-core = "0.1"
+log = "0.3"
+tokio-timer = "0.1"
+urlshortener = "0.9"
+
+[dev-dependencies]
+tokio-timer = "0.1"
