@@ -52,8 +52,9 @@ fn main() {
 
                     let reply = vec![mret];
                     future::ok(reply)
-                }).inarg::<String, _>("long_url")
-                    .outarg::<&str, _>("reply"),
+                })
+                .inarg::<String, _>("long_url")
+                .outarg::<&str, _>("reply"),
             ),
         ),
     );
