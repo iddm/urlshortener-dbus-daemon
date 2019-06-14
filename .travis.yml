@@ -23,5 +23,9 @@ script:
   - cargo fmt --verbose --all -- --check
   - cargo clippy
   - cargo test --verbose $FEATURES -- --nocapture
+addons:
+  apt:
+    packages:
+      - libdbus-1-dev
 notifications:
   email: false
