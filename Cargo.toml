@@ -8,11 +8,11 @@ readme = "README.md"
 license = "MIT"
 keywords = ["url", "short", "shortener", "link"]
 
-repository = "https://github.com/vityafx/urlshortener-dbus-daemon"
+repository = "https://github.com/iddm/urlshortener-dbus-daemon"
 documentation = "https://docs.rs/urlshortener-dbus-daemon"
 
 [badges]
-travis-ci = { repository = "vityafx/urlshortener-dbus-daemon" }
+travis-ci = { repository = "iddm/urlshortener-dbus-daemon" }
 
 [dependencies]
 dbus = "0.6"

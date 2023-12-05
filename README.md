@@ -1,9 +1,9 @@
 # urlshortener-dbus-daemon
-[![](https://meritbadge.herokuapp.com/urlshortener-dbus-daemon)](https://crates.io/crates/urlshortener-dbus-daemon) [![](https://travis-ci.org/vityafx/urlshortener-dbus-daemon.svg?branch=master)](https://travis-ci.org/vityafx/urlshortener-dbus-daemon) [![](https://docs.rs/urlshortener-dbus-daemon/badge.svg)](https://docs.rs/urlshortener-dbus-daemon)
+[![](https://meritbadge.herokuapp.com/urlshortener-dbus-daemon)](https://crates.io/crates/urlshortener-dbus-daemon) [![](https://travis-ci.org/iddm/urlshortener-dbus-daemon.svg?branch=master)](https://travis-ci.org/iddm/urlshortener-dbus-daemon) [![](https://docs.rs/urlshortener-dbus-daemon/badge.svg)](https://docs.rs/urlshortener-dbus-daemon)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 
-A very simple urlshortener dbus daemon written in Rust. Uses [urlshortener library](https://github.com/vityafx/urlshortener-rs).
+A very simple urlshortener dbus daemon written in Rust. Uses [urlshortener library](https://github.com/iddm/urlshortener-rs).
 
 ## Usage (dbus-send)
 
@@ -15,4 +15,4 @@ method return time=1533217676.442292 sender=:1.2237 -> destination=:1.2238 seria
 
 ## License
 
-This project is [licensed under the MIT license](https://github.com/vityafx/urlshortener-dbus-daemon/blob/master/LICENSE).
+This project is [licensed under the MIT license](https://github.com/iddm/urlshortener-dbus-daemon/blob/master/LICENSE).
